@@ -1,5 +1,4 @@
- Google Apps Script Samples [![Build Status](https://travis-ci.org/gsuitedevs/apps-script-samples.svg?branch=master)](https://travis-ci.org/gsuitedevs/apps-script-samples)
- 
+ Google Apps Script Samples
  Various sample code and projects for the Google Apps Script platform, a JavaScript platform in the cloud.
  
  Learn more: https://developers.google.com/apps-script
