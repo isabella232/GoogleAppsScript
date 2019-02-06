@@ -18,6 +18,6 @@
  align="left"
  width="96px"/>
  ### Security
- - [Manage GSuite Apps](ConnectdApps)
+ - [Manage GSuite Apps](ConnectedApps)
  <br><br>
 
