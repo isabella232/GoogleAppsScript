@@ -1,3 +1,9 @@
+/**
+ * This script counts the number of files and folders in a given TeamDrive.
+ * Change the "var TeamDriveID = '0AP9wThnH65b6Uk9PVA'" to the team drive ID you need.
+*/ 
+
+
 function CountTDriveFiles() {
   var TeamFiles;
   var Files;
