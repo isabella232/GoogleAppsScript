@@ -1,4 +1,3 @@
-
 /**
  * This script is an example-
  * how to go over all users in the G Suite account and delete Dropbox app from the "Connected App" for each user in case he allowed it.
@@ -24,7 +23,6 @@ var Email;
         Email = Users[i].primaryEmail
         UserTokens = AdminDirectory.Tokens.list(Email)
         Tokens = UserTokens.items
-        //Logger.log(Tokens)
         if (!Tokens){
           continue;
         }
