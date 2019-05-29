@@ -9,7 +9,9 @@ function findFilesinFolder() {
   // Logger.log(cutOffDateAsString);
 
   var folder = DriveApp.getFolderById('12C3Y_MYUJmueBBudbv_p95KO4YkxqWQe')
+  // DriveApp.getFolderById gets the id of the folder as a parameter.
   var file
+  var files
 
    // Logger.log('Foldername = ' + folder.getName());
     files = folder.searchFiles('modifiedDate < "' + cutOffDateAsString + '"')
